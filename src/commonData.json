@@ -1,0 +1,10 @@
+{
+  "siteName": "★★サイト名★★",
+  "siteUrl": "https://www.xxx/",
+  "viewport": "1024",
+  "spWidth": "480",
+  "shortcutIcon": "https://www.xxx/path/to/icon.ico",
+  "appleIcon": "https://www.xxx/path/to/icon.png",
+  "twitterCard": "summary_large_image",
+  "twitterSite": "@xxxxx"
+}

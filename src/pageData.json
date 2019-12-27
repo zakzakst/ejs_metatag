@@ -1,0 +1,25 @@
+[{
+  "fileName": "page1",
+  "title": "title1",
+  "keywords": "キーワード1-1,キーワード1-2,キーワード1-3,キーワード1-4,キーワード1-5",
+  "description": "概要1",
+  "url": "https://www.xxx/path/to/page1.html",
+  "spUrl": "https://www.xxx/path/to/page1_sp.html",
+  "ogImage": "https://www.xxx/path/to/ogImage1.jpg"
+}, {
+  "fileName": "page2",
+  "title": "title2",
+  "keywords": "キーワード2-1,キーワード2-2,キーワード2-3,キーワード2-4,キーワード2-5",
+  "description": "概要2",
+  "url": "https://www.xxx/path/to/page2.html",
+  "spUrl": "https://www.xxx/path/to/page2_sp.html",
+  "ogImage": "https://www.xxx/path/to/ogImage2.jpg"
+}, {
+  "fileName": "page3",
+  "title": "title3",
+  "keywords": "キーワード3-1,キーワード3-2,キーワード3-3,キーワード3-4,キーワード3-5",
+  "description": "概要3",
+  "url": "https://www.xxx/path/to/page3.html",
+  "spUrl": "https://www.xxx/path/to/page3_sp.html",
+  "ogImage": "https://www.xxx/path/to/ogImage3.jpg"
+}]

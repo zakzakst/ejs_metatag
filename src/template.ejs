@@ -1,0 +1,56 @@
+<!-- 最初にデータを入れた変数を宣言する -->
+<% var Page %>
+<% var Common %>
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title><%= Page.title %></title>
+  <meta name="keywords" content="<%= Page.keywords %>">
+  <meta name="description" content="<%= Page.description %>">
+	<meta name="viewport" content="width=<%= Common.viewport %>">
+  <meta name="twitter:card" content="<%= Common.twitterCard %>">
+  <meta name="twitter:site" content="<%= Common.twitterSite %>">
+  <link rel="canonical" href="<%= Page.url %>">
+  <link rel="alternate" media="only screen and (max-width: <%= Common.spWidth %>px)" href="<%= Page.spUrl %>">
+  <link rel="shortcut icon" href="<%= Common.shortcutIcon %>" type="image/x-icon">
+  <link rel="apple-touch-icon" href="<%= Common.appleIcon %>" sizes="180x180">
+
+  <!--OpenGraph-->
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:title" content="<%= Page.title %>">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="<%= Page.url %>">
+  <meta property="og:site_name" content="<%= Common.siteName %>">
+  <meta property="og:image" content="<%= Page.ogImage %>">
+  <meta property="og:description" content="<%= Page.description %>">
+
+  <!--構造化データ-->
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "<%= Common.siteUrl %>",
+            "name": "<%= Common.siteName %>"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@id": "<%= Page.url %>",
+            "name": "<%= Page.title %>"
+          }
+        }
+      ]
+    }
+  </script>
+  </head>
+  <body>
+  </body>
+</html>

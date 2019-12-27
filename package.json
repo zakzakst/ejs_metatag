@@ -1,0 +1,17 @@
+{
+  "name": "ejs_metatag",
+  "version": "1.0.0",
+  "description": "ejsでメタタグを書き出す",
+  "main": "index.js",
+  "scripts": {
+    "ejsBuild": "gulp ejsBuild"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-ejs": "^4.1.2",
+    "gulp-rename": "^1.4.0",
+    "gulp-replace": "^1.0.0"
+  }
+}
